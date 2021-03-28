@@ -36,7 +36,7 @@ const Card = () => {
         <p>
           <MdLocationOn /> {location || 'earth'}
         </p>
-        <a href={`https://${blog}`} target='_blank' rel='noopener noreferrer'>
+        <a href={`${blog}`} target='_blank' rel='noopener noreferrer'>
           <MdLink />
           {blog}
         </a>
